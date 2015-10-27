@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <!--Import Google Icon Font-->
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+  <link type="text/css" rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+
+<body>
+  <!-- <nav class="white" role="navigation">
+  <div class="nav-wrapper container">
+  <a id="logo-container" href="#" class="brand-logo">Joey Gracey</a>
+  <ul id="nav-mobile" class="side-nav"
+</div>
+</nav> -->
+<div id="index-banner" class="parallax-container large-parallax-container">
+  <div class="section no-pad-bot">
+    <div class="container">
+      <br>
+      <h1 class="header center light-grey-text text-lighten-2">Joey Gracey</h1>
+      <div class="row center">
+        <h5 class="header col s12 light ">Hacker & Software Developer</h5>
+      </div>
+    </div>
+  </div>
+  <div class="parallax">
+    <img src="images/background1.png" alt="Unsplashed background img 1" style="display: block; transform: translate3d(-50%, 200px, 0px);">
+  </div>
+</div>
+
+<div class="container">
+  <div class="section">
+    <div class="row">
+      <div class="col m4">
+        <div class="icon-block">
+          <h2 class="center black-text"><i class="fa fa-desktop"></i></h2>
+          <!-- <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2> -->
+
+          <h5 class="center">Front End</h5>
+
+          <p class="light">React. Angular. D3. Whatever. If you want it, I'll build it.</p>
+        </div>
+      </div>
+      <div class="col m4">
+        <div class="icon-block">
+          <h2 class="center black-text"><i class="fa fa-cloud"></i></h2>
+          <h5 class="center">Back End</h5>
+
+          <p class="light">High Availability is my jam.  Let me make your backend invincible.</p>
+        </div>
+      </div>
+      <div class="col m4">
+        <div class="icon-block">
+          <h2 class="center black-text"><i class="fa fa-cogs"></i></h2>
+          <h5 class="center">Dev Ops</h5>
+          <p class="light">I start sweating when I don't have a shell in front of me.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="parallax-container small-parallax-container valign-wrapper">
+    <!-- <div class="section full-width-section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light text-darken-2 white-text">A Modern Full Stack Developer</h5>
+        </div>
+      </div>
+    </div> -->
+    <div class="parallax">
+      <img src="images/pi2.png" alt="Raspberry Pi" style="display: block; transform: translate3d(-50%, 328px, 0px);">
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col s12 center">
+          <h4>A Modern Full Stack Developer</h4>
+          <p class="light left-align">It seems every developer is fullstack these days.  Has the term lost it's meaning?  I get involved at every level of software development.  I've played with Raspberry Pis, combed through massive datasets, worked in software teams, architected solutions, constructed APIs, communicated with project managers and designed beautiful user experiences.  That's full stack.  No matter what your project needs, I have the tools and experience to get it done.
+        </div>
+        <div class="col s12 center" id="experience-section">
+          <h4>My Experience</h4>
+          <ul>
+            <li> Lead Developer @ Leavetown</li>
+            <li> Founder @ Loodo Analytics </li>
+            <li> Software Engineer @ IC Shore</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--Import jQuery before materialize.js-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="js/bin/materialize.min.js"></script>
+
+<script type="text/javascript">
+(function($){
+  $(function(){
+
+    $('.button-collapse').sideNav();
+    $('.parallax').parallax( );
+
+    var options = [
+      {selector:'#experience-section',offset:100,callback:'console.log("hit");Materialize.showStaggeredList("#experience-section ul")'}
+    ]
+    Materialize.scrollFire(options);
+  }); // end of document ready
+})(jQuery); // end of jQuery name space
+</script>
+</body>
+</html>
