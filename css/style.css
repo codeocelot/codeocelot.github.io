@@ -4,10 +4,15 @@
 .large-parallax-container {
   height: 70vh; }
   .large-parallax-container#contact {
-    height: 100vh; }
+    min-height: 100vh;
+    height: auto; }
 
 .small-parallax-container {
-  height: 30vh; }
+  height: 30vh;
+  width: 100%; }
+  .small-parallax-container .parallax img {
+    width: 100%;
+    float: left; }
 
 div.parallax-container div.full-width-section {
   width: 100%; }
@@ -17,23 +22,27 @@ div.parallax-container div.full-width-section {
   height: 25vh; }
 
 .parallax img {
-  width: 100%;
   height: auto; }
 
 #contact .container {
   opacity: 0; }
+  #contact .container a {
+    color: white; }
+  #contact .container span {
+    white-space: pre; }
 
 #experience-section li {
   opacity: 0; }
-
-a {
-  color: white; }
 
 .big-icon {
   margin-left: 10px;
   margin-right: 10px; }
 
-#dlResumeWrapper {
-  margin-top: 40vh; }
+@media screen and (min-width: 993px) {
+  #dlResumeWrapper {
+    margin-top: 40vh; } }
+#dlResumeWrapper .btn-large {
+  margin-bottom: 10px;
+  margin-top: 10px; }
 
 /*# sourceMappingURL=style.css.map */

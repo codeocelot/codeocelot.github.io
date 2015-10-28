@@ -1,3 +1,5 @@
+
+
 .parallax-container{
   color:rgba(255,255,255,.9);
 }
@@ -5,12 +7,18 @@
 .large-parallax-container{
   height:70vh;
   &#contact{
-    height:100vh;
+    min-height:100vh;
+    height:auto;
   }
 }
 
 .small-parallax-container{
   height:30vh;
+  width:100%;
+  .parallax img{
+    width:100%;
+    float:left;
+  }
 }
 
 div.parallax-container{
@@ -25,12 +33,18 @@ div.parallax-container{
 }
 
 .parallax img{
-  width:100%;
+  //width:100%;
   height:auto;
 }
 
 #contact .container{
   opacity:0;
+  a {
+    color:white;
+  }
+  span{
+  white-space:pre;
+}
 }
 
 
@@ -38,9 +52,7 @@ div.parallax-container{
   opacity:0;
 }
 
-a {
-  color:white;
-}
+
 
 .big-icon{
   margin-left:10px;
@@ -48,5 +60,17 @@ a {
 }
 
 #dlResumeWrapper{
-  margin-top:40vh;
+  @media screen and (min-width:993px){
+    margin-top:40vh;
+
+  }
+  .btn-large{
+    margin-bottom:10px;
+    margin-top:10px;
+  }
 }
+// #index-banner{
+//   .parallax img{
+//     left:100%;
+//   }
+// }
