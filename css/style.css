@@ -3,6 +3,8 @@
 
 .large-parallax-container {
   height: 70vh; }
+  .large-parallax-container#contact {
+    height: 100vh; }
 
 .small-parallax-container {
   height: 30vh; }
@@ -18,7 +20,17 @@ div.parallax-container div.full-width-section {
   width: 100%;
   height: auto; }
 
+#contact .container {
+  opacity: 0; }
+
 #experience-section li {
   opacity: 0; }
+
+a {
+  color: white; }
+
+.big-icon {
+  margin-left: 10px;
+  margin-right: 10px; }
 
 /*# sourceMappingURL=style.css.map */

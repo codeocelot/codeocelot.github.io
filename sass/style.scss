@@ -4,6 +4,9 @@
 
 .large-parallax-container{
   height:70vh;
+  &#contact{
+    height:100vh;
+  }
 }
 
 .small-parallax-container{
@@ -26,6 +29,20 @@ div.parallax-container{
   height:auto;
 }
 
+#contact .container{
+  opacity:0;
+}
+
+
 #experience-section li{
   opacity:0;
+}
+
+a {
+  color:white;
+}
+
+.big-icon{
+  margin-left:10px;
+  margin-right:10px;
 }

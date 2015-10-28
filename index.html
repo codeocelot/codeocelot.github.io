@@ -58,7 +58,7 @@
       </div>
       <div class="col m4">
         <div class="icon-block">
-          <h2 class="center black-text"><i class="fa fa-cogs"></i></h2>
+          <h2 class="center black-text"><i class="fa fa-terminal"></i></h2>
           <h5 class="center">Dev Ops</h5>
           <p class="light">I start sweating when I don't have a shell in front of me.</p>
         </div>
@@ -85,17 +85,71 @@
       <div class="row">
         <div class="col s12 center">
           <h4>A Modern Full Stack Developer</h4>
-          <p class="light left-align">It seems every developer is fullstack these days.  Has the term lost it's meaning?  I get involved at every level of software development.  I've played with Raspberry Pis, combed through massive datasets, worked in software teams, architected solutions, constructed APIs, communicated with project managers and designed beautiful user experiences.  That's full stack.  No matter what your project needs, I have the tools and experience to get it done.
+          <p class="light left-align">It seems every developer is fullstack these days.  Has the term lost it's meaning?  I get involved at every level of software development.  I've played with Raspberry Pis, combed through massive datasets, worked in software teams, architected solutions, constructed resilient APIs, communicated with project managers and designed beautiful user experiences.  That's full stack.  No matter what your project needs, I have the tools and experience to get it done.
+            <br><br>
         </div>
         <div class="col s12 center" id="experience-section">
-          <h4>My Experience</h4>
-          <ul>
-            <li> Lead Developer @ Leavetown</li>
-            <li> Founder @ Loodo Analytics </li>
-            <li> Software Engineer @ IC Shore</li>
+          <h4>Experience</h4>
+          <ul class="collapsible" data-collapsible="accordion">
+            <li>
+              <div class="collapsible-header">
+                Mentor @ Lighthouse Labs
+              </div>
+              <div class="collapsible-body">
+                Oct. 2015 - Current <br>
+                Teach highly motivated students the best practices in Web Development, including Nodejs, Ruby on Rails, React, Object Orientated Programming, Software Architecture & Test Driven Development.
+              </div>
+            </li>
+            <li>
+              <div class="collapsible-header">
+                Lead Developer @ Leavetown
+              </div>
+              <div class="collapsible-body">
+                Nov. 2014 - Oct. 2015 <br>
+                Responsible for the entire stack behind a company doing >$2M/year in revenue.
+
+                <!-- Rebuilt the ASP.NET/Wordpress site using a MEAN (Mongo, Express, Angular, Node) stack.   -->
+              </div>
+            </li>
+            <li>
+              <div class="collapsible-header">
+                Founder @ Loodo Analytics
+              </div>
+              <div class="collapsible-body">
+                Jan. 2014 - Sept. 2014 <br>
+                IoT startup founded raising $25k in 48 hours.  BC New Ventures 2014 Semi Finalist.  Techstars Seattle Finalist.
+              </div></li>
+            <li>
+              <div class="collapsible-header">
+                Software Engineer @ IC Shore
+              </div>
+              <div class="collapsible-body">
+                Jan. 2014 - Nov. 2014 <br>
+                Developed software to manage insitutional investment portfolios, identify risk and ensure satisfactory growth with over $1.6B in invested funds.
+              </div></li>
           </ul>
         </div>
       </div>
+    </div>
+  </div>
+
+  <div id="contact" class="parallax-container large-parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br>
+        <h1 class="header center light-grey-text text-lighten-2">Interested in working together?</h1>
+
+        <div class="row center">
+          <h5 class="header col s12 text-darken-2">Currently looking for exciting, fullstack opportunities with bleeding edge technologies.</h5>
+          <!-- <h5 class="header col s12 text-darken-2">Located in beautiful Vancouver B.C., I can make anywhere my home.</h5> -->
+          <h4 class="header col s12 light link"><a href="mailto:joey@gracey.ca">Joey@Gracey.ca    </a><a href="tel:16048428130">604 842 8130</a></h4>
+          <a href="https://github.com/codeocelot"><i class="fa fa-github fa-4x big-icon"></i></a>
+          <a href="https://ca.linkedin.com/in/joeygracey"><i class="fa fa-linkedin fa-4x big-icon"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="parallax">
+      <img src="images/vancouver satellite2.jpg" alt="Unsplashed background img 1" style="display: block; transform: translate3d(-50%, 0px, 0px);">
     </div>
   </div>
 
@@ -106,12 +160,11 @@
 <script type="text/javascript">
 (function($){
   $(function(){
-
     $('.button-collapse').sideNav();
     $('.parallax').parallax( );
-
     var options = [
-      {selector:'#experience-section',offset:100,callback:'console.log("hit");Materialize.showStaggeredList("#experience-section ul")'}
+      {selector:'#experience-section',offset:100,callback:'console.log("hit");Materialize.showStaggeredList("#experience-section ul")'},
+      {selector:'#contact .section',offset:100,callback:'Materialize.fadeInImage("#contact .section .container")'}
     ]
     Materialize.scrollFire(options);
   }); // end of document ready
