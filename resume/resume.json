@@ -1,0 +1,147 @@
+{	"basics": {
+		"name": "Joey Gracey",
+		"label": "Software Developer & Hacker",
+		"picture": "https://avatars1.githubusercontent.com/u/4086894",
+		"email": "joey@gracey.ca",
+		"phone": "(604) 842-8130",
+		"website": "https://joey.gracey.ca",
+		"summary": "I am looking for fullstack javascript opportunities using ES6/7, React and other up-to-date tools.  Currently obsessed with ES6 and never writing function(){} again.",
+		"location": {
+			"address": "350-128 West Hastings",
+			"postalCode": "V6B 1G8",
+			"city": "Vancouver",
+			"countryCode": "CA",
+			"region": "British Columbia"
+		},
+		"profiles": [{
+			"network": "Github",
+			"username": "codeocelot",
+			"url": "https://github.com/codeocelot"
+		}]
+	},
+	"work": [
+		{
+			"company": "Lighthouse Labs",
+			"position": "Student Mentor",
+			"website": "https://lighthouselabs.ca",
+			"startDate": "2015-10-15",
+			"summary": "Teach highly motivated students the best practices in Web Development, including Nodejs, Ruby on Rails, React, Object Orientated Programming, Software Architecture & Test Driven Development."
+		},{
+		"company": "Leavetown Vacations",
+		"position": "Lead Developer",
+		"website": "http://leavetown.com",
+		"startDate": "2014-11-01",
+		"endDate": "2015-10-20",
+		"summary": "Description...",
+		"highlights": [
+			"Migrated many of the company's services over to a MEAN stack"
+		]
+	},{
+		"company": "Loodo Analytics",
+		"position": "Co-founder",
+		"website": "https://loodo.co",
+		"startDate": "2013-12-01",
+		"endDate": "2014-10-01",
+		"summary": "IoT startup I founded with my twin brother",
+		"highlights": [
+			"Offered a $25k termsheet in 48 hours.",
+			"Only New Ventures BC semi-finalist in 2014 controlled by recent university graduates.",
+			"Mentors include VP-BizDev @ SAP and Chairman @ Recon Instruments."
+		]
+	},{
+		"company": "IC Shore",
+		"position": "Software Engineer",
+		"startDate": "2014-01-15",
+		"endDate": "2014-11-15",
+		"summary": "Responsible for maintaining and improving our financial market analysis toolkit",
+		"highlights": [
+			"Spearheaded the effort to move our application off the desktop and into the clouds."
+		]
+	}],
+	"education": [{
+		"institution": "University of British Columbia",
+		"area": "Computer Science",
+		"studyType": "Bachelor of Science",
+		"startDate": "2009-09-01",
+		"endDate": "2013-12-20",
+		"courses": [
+
+			"Machine Learning",
+			"Advanced Operating Systems",
+			"Advanced Databases",
+			"Distributed Systems",
+			"Artificial Intelligence",
+			"Internet Computing",
+			"Partial Differential Calculus",
+			"Econometrics"
+
+]
+	}],
+	"skills": [{
+		"name": "Server-side Javascript",
+		"level": "Master",
+		"keywords": [
+			"Nodejs",
+			"ES6",
+			"Babel",
+			"Grunt/Gulp",
+			"HAProxy"]
+	},{
+		"name": "Client-side Javascript",
+		"level": "Master",
+		"keywords": [
+			"Angular",
+			"{D3,Crossfilter,NVD3,Rickshaw}.js",
+			"JQuery",
+			"React",
+			"Browserify",
+			"Webpack"
+		]
+	},{
+		"name": "Web Development",
+		"level": "Master",
+		"keywords": [
+			"HTML",
+			"Material Design",
+			"CSS",
+			"SASS",
+			"LESS",
+			"Above the Fold/Async CSS loading"
+			]
+	},
+	{
+		"name": "Dev Ops",
+		"level": "Master",
+		"keywords": [
+			"AWS",
+			"Azure",
+			"DB Admin",
+			"Index Optimization",
+			"Load Balancing",
+			"Replication, Availability and Failover",
+			"Forever"
+			]
+	},
+	{
+		"name": "Data Storage",
+		"level": "Master",
+		"keywords": [
+			"Mongo",
+			"Postgres",
+			"neo4j",
+			"MS-SQL",
+			"MySQL",
+			"Redis",
+			""
+			]
+	}
+],
+	"languages": [{
+		"language": "English",
+		"fluency": "Native speaker"
+	}],
+	"references": [{
+		"name": "Don Burkes",
+		"reference": "Joey's a great thinker & developer"
+	}]
+}
