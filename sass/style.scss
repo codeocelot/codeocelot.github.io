@@ -13,7 +13,7 @@
 }
 
 .small-parallax-container{
-  min-height:30vh;
+  height:30vh;
   width:100%;
   .parallax img{
     width:100%;
@@ -28,7 +28,7 @@ div.parallax-container{
 }
 
 .icon-block-row{
-  height:30vh;
+  // height:30vh;
   .col{
     position: relative;
     top: 50%;
