@@ -26,8 +26,10 @@ div.parallax-container div.full-width-section {
     .icon-block-row .col .icon-block {
       width: 100%; }
 
-.parallax img {
-  height: auto; }
+.parallax {
+  min-height: 300px; }
+  .parallax img {
+    height: auto; }
 
 #contact .container {
   opacity: 0; }

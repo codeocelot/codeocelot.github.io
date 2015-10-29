@@ -94,8 +94,7 @@
 			"{D3,Crossfilter,NVD3,Rickshaw}.js",
 			"JQuery",
 			"React",
-			"Browserify",
-			"Webpack"
+			"Browserify"
 		]
 	},{
 		"name": "Web Development",
@@ -106,7 +105,8 @@
 			"CSS",
 			"SASS",
 			"LESS",
-			"Above the Fold/Async CSS loading"
+			"Above the Fold/Async CSS loading",
+			"Webpack"
 			]
 	},
 	{
@@ -131,8 +131,7 @@
 			"neo4j",
 			"MS-SQL",
 			"MySQL",
-			"Redis",
-			""
+			"Redis"
 			]
 	}
 ],
