@@ -28,7 +28,7 @@ div.parallax-container{
 }
 
 .icon-block-row{
-  min-height:30vh;
+  height:30vh;
   .col{
     position: relative;
     top: 50%;
@@ -40,12 +40,9 @@ div.parallax-container{
   }
 }
 
-.parallax{
-  min-height:300px;
-  img{
-    //width:100%;
-    height:auto;
-  }
+.parallax img{
+  //width:100%;
+  height:auto;
 }
 
 #contact .container{
