@@ -8,7 +8,7 @@
     height: auto; }
 
 .small-parallax-container {
-  height: 30vh;
+  min-height: 30vh;
   width: 100%; }
   .small-parallax-container .parallax img {
     width: 100%;
