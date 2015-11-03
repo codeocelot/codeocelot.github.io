@@ -187,6 +187,10 @@
         Materialize.scrollFire(options);
       }); // end of document ready
     })(jQuery); // end of jQuery name space
+
+    // lock screen to portrait.  iOS doesn't like this.
+    var lockOrientation = screen.lockOrientation || screen.mozLockOrientation || screen.msLockOrientation;
+    lockOrientation("landscape-primary");
     </script>
   </body>
   </html>
