@@ -190,7 +190,8 @@
 
     // lock screen to portrait.  iOS doesn't like this.
     var lockOrientation = screen.lockOrientation || screen.mozLockOrientation || screen.msLockOrientation;
-    lockOrientation("landscape-primary");
+    if(lockOrientation)
+			lockOrientation("landscape-primary");
     </script>
   </body>
   </html>
