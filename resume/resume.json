@@ -42,7 +42,7 @@
 		"website": "https://loodo.co",
 		"startDate": "2013-12-01",
 		"endDate": "2014-10-01",
-		"summary": "IoT startup I founded with my twin brother",
+		"summary": "IoT startup I co-founded.  Used Raspberry Pis to harvest WiFi MAC addresses to provide insights into customer retention, marketing feedback & growth.  iOS 8 ended the fun by breaking spec & scrambling the MAC address on probe requests.",
 		"highlights": [
 			"Offered a $25k termsheet in 48 hours.",
 			"Only New Ventures BC semi-finalist in 2014 controlled by recent university graduates.",
