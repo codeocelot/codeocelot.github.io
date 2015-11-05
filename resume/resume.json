@@ -34,7 +34,8 @@
 		"endDate": "2015-10-20",
 		"summary": "Responsible for the entire stack behind a company doing >$2M/year in revenue.",
 		"highlights": [
-			"Migrated many of the company's services over to a MEAN stack from VB.NET Webforms"
+			"Migrated many of the company's services over to a MEAN stack from VB.NET Webforms",
+			"Re-architected business-facing & guest-facing sites to use micro-service architecture"
 		]
 	},{
 		"company": "Loodo Analytics",
