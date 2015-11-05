@@ -4,8 +4,8 @@
 		"picture": "https://avatars1.githubusercontent.com/u/4086894",
 		"email": "joey@gracey.ca",
 		"phone": "(604) 842-8130",
-		"website": "https://joey.gracey.ca",
-		"summary": "I am looking for fullstack javascript opportunities using ES6/7, React and other up-to-date tools.  Currently obsessed with ES6 and never writing function(){} again.",
+		"website": "http://joey.gracey.ca",
+		"summary": "I'm looking for fullstack JavaScript opportunities including MEAN, React, Flux and Polymer, and compile-to-js languages like Elm and LiveScript.  Currently obsessed with ES6 and never writing function(){} again.",
 		"location": {
 			"address": "350-128 West Hastings",
 			"postalCode": "V6B 1G8",
@@ -34,7 +34,7 @@
 		"endDate": "2015-10-20",
 		"summary": "Responsible for the entire stack behind a company doing >$2M/year in revenue.",
 		"highlights": [
-			"Migrated many of the company's services over to a MEAN stack"
+			"Migrated many of the company's services over to a MEAN stack from VB.NET Webforms"
 		]
 	},{
 		"company": "Loodo Analytics",
@@ -46,7 +46,8 @@
 		"highlights": [
 			"Offered a $25k termsheet in 48 hours.",
 			"Only New Ventures BC semi-finalist in 2014 controlled by recent university graduates.",
-			"Mentors include VP-BizDev @ SAP and Chairman @ Recon Instruments."
+			"Mentors include VP-BizDev @ SAP and Chairman @ Recon Instruments.",
+			"Iterated through many analytics stacks, including MySQL, neo4j, MongoDB (including Minimongo!) & Redis"
 		]
 	},{
 		"company": "IC Shore",
@@ -55,13 +56,14 @@
 		"endDate": "2014-11-15",
 		"summary": "Responsible for maintaining and improving our financial market analysis toolkit",
 		"highlights": [
-			"Spearheaded the effort to move our application off the desktop and into the clouds."
+			"Spearheaded the effort to move our application off the desktop and into the clouds.",
+			"Wrote library to track errors in our data feed and flag them for further interogation"
 		]
 	}],
 	"education": [{
 		"institution": "University of British Columbia",
-		"area": "Computer Science",
-		"studyType": "Bachelor of Science",
+		"area": "Major: Computer Science, Minor: Economics",
+		"studyType": "B.Sc",
 		"startDate": "2009-09-01",
 		"endDate": "2013-12-20",
 		"courses": [
@@ -73,7 +75,9 @@
 			"Artificial Intelligence",
 			"Internet Computing",
 			"Partial Differential Calculus",
-			"Econometrics"
+			"Linear Algebra",
+			"Econometrics",
+			"International Finance"
 
 ]
 	}],
@@ -84,7 +88,8 @@
 			"Nodejs",
 			"ES6",
 			"Babel",
-			"Grunt/Gulp",
+			"Grunt",
+			"Gulp",
 			"HAProxy"]
 	},{
 		"name": "Client-side Javascript",
@@ -94,7 +99,8 @@
 			"{D3,Crossfilter,NVD3,Rickshaw}.js",
 			"JQuery",
 			"React",
-			"Browserify"
+			"Browserify",
+			"Webpack"
 		]
 	},{
 		"name": "Web Development",
@@ -115,8 +121,7 @@
 		"keywords": [
 			"AWS",
 			"Azure",
-			"DB Admin",
-			"Index Optimization",
+			"Index Optimization (noSQL && SQL)",
 			"Load Balancing",
 			"Replication, Availability and Failover",
 			"Forever"
@@ -141,6 +146,6 @@
 	}],
 	"references": [{
 		"name": "Don Burkes- Head Instructor @ Lighthouse Labs",
-		"reference":"Available upon Request"		
+		"reference":"Joey brings both a profound depth and breadth of skill to every project on which he works. Having him share his knowledge and experience at Lighthouse has been a tremendous benefit to both staff and students."
 	}]
 }
