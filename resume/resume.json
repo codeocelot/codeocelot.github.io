@@ -1,152 +1,184 @@
-{	"basics": {
-		"name": "Joey Gracey",
-		"label": "Software Developer & Hacker",
-		"picture": "https://avatars1.githubusercontent.com/u/4086894",
-		"email": "joey@gracey.ca",
-		"phone": "(604) 842-8130",
-		"website": "http://joey.gracey.ca",
-		"summary": "I'm looking for fullstack JavaScript opportunities including MEAN, React, Flux and Polymer, and compile-to-js languages like Elm and LiveScript.  Currently obsessed with ES6 and never writing function(){} again.",
-		"location": {
-			"address": "350-128 West Hastings",
-			"postalCode": "V6B 1G8",
-			"city": "Vancouver",
-			"countryCode": "CA",
-			"region": "British Columbia"
-		},
-		"profiles": [{
-			"network": "Github",
-			"username": "codeocelot",
-			"url": "https://github.com/codeocelot"
-		}]
-	},
-	"work": [
-		{
-			"company": "Lighthouse Labs",
-			"position": "Student Mentor",
-			"website": "https://lighthouselabs.ca",
-			"startDate": "2015-10-15",
-			"summary": "Teach highly motivated students the best practices in Web Development, including Nodejs, Ruby on Rails, React, Object Orientated Programming, Software Architecture & Test Driven Development."
-		},{
-		"company": "Leavetown Vacations",
-		"position": "Lead Developer",
-		"website": "http://leavetown.com",
-		"startDate": "2014-11-01",
-		"endDate": "2015-10-20",
-		"summary": "Responsible for the entire stack behind a company doing >$2M/year in revenue.",
-		"highlights": [
-			"Migrated many of the company's services over to a MEAN stack from VB.NET Webforms",
-			"Re-architected business-facing & guest-facing sites to use micro-service architecture"
-		]
-	},{
-		"company": "Loodo Analytics",
-		"position": "Co-founder",
-		"website": "https://loodo.co",
-		"startDate": "2013-12-01",
-		"endDate": "2014-10-01",
-		"summary": "IoT startup I co-founded.  Used Raspberry Pis to harvest WiFi MAC addresses to provide insights into customer retention, marketing feedback & growth.  iOS 8 ended the fun by breaking spec & scrambling the MAC address on probe requests.",
-		"highlights": [
-			"Offered a $25k termsheet in 48 hours.",
-			"Only New Ventures BC semi-finalist in 2014 controlled by recent university graduates.",
-			"Mentors include VP-BizDev @ SAP and Chairman @ Recon Instruments.",
-			"Iterated through many analytics stacks, including MySQL, neo4j, MongoDB (including Minimongo!) & Redis"
-		]
-	},{
-		"company": "IC Shore",
-		"position": "Software Engineer",
-		"startDate": "2014-01-15",
-		"endDate": "2014-11-15",
-		"summary": "Responsible for maintaining and improving our financial market analysis toolkit",
-		"highlights": [
-			"Spearheaded the effort to move our application off the desktop and into the clouds.",
-			"Wrote library to track errors in our data feed and flag them for further interogation"
-		]
-	}],
-	"education": [{
-		"institution": "University of British Columbia",
-		"area": "Major: Computer Science, Minor: Economics",
-		"studyType": "B.Sc",
-		"startDate": "2009-09-01",
-		"endDate": "2013-12-20",
-		"courses": [
-
-			"Machine Learning",
-			"Advanced Operating Systems",
-			"Advanced Databases",
-			"Distributed Systems",
-			"Artificial Intelligence",
-			"Internet Computing",
-			"Partial Differential Calculus",
-			"Linear Algebra",
-			"Econometrics",
-			"International Finance"
-
-]
-	}],
-	"skills": [{
-		"name": "Server-side Javascript",
-		"level": "Master",
-		"keywords": [
-			"Nodejs",
-			"ES6",
-			"Babel",
-			"Grunt",
-			"Gulp",
-			"HAProxy"]
-	},{
-		"name": "Client-side Javascript",
-		"level": "Master",
-		"keywords": [
-			"Angular",
-			"{D3,Crossfilter,NVD3,Rickshaw}.js",
-			"JQuery",
-			"React",
-			"Browserify",
-			"Webpack"
-		]
-	},{
-		"name": "Web Development",
-		"level": "Master",
-		"keywords": [
-			"HTML",
-			"Material Design",
-			"CSS",
-			"SASS",
-			"LESS",
-			"Above the Fold/Async CSS loading",
-			"Webpack"
-			]
-	},
-	{
-		"name": "Dev Ops",
-		"level": "Master",
-		"keywords": [
-			"AWS",
-			"Azure",
-			"Index Optimization (noSQL && SQL)",
-			"Load Balancing",
-			"Replication, Availability and Failover",
-			"Forever"
-			]
-	},
-	{
-		"name": "Data Storage",
-		"level": "Master",
-		"keywords": [
-			"Mongo",
-			"Postgres",
-			"neo4j",
-			"MS-SQL",
-			"MySQL",
-			"Redis"
-			]
-	}
-],
-	"languages": [{
-		"language": "English",
-		"fluency": "Native speaker"
-	}],
-	"references": [{
-		"name": "Don Burkes- Head Instructor @ Lighthouse Labs",
-		"reference":"Joey brings both a profound depth and breadth of skill to every project on which he works. Having him share his knowledge and experience at Lighthouse has been a tremendous benefit to both staff and students."
-	}]
+{
+  "basics": {
+    "name": "Joey Gracey",
+    "label": "Software Developer & Hacker",
+    "picture": "https://avatars1.githubusercontent.com/u/4086894",
+    "email": "joey@gracey.ca",
+    "phone": "(650) 660 5857",
+    "website": "http://joey.gracey.ca",
+    "summary": "Looking for exciting opportunites to revolutionize human understanding with data.",
+    "location": {
+      "address": "631 Kendall Avenue",
+      "postalCode": "94306",
+      "city": "Palo Alto",
+      "countryCode": "US",
+      "region": "California"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "codeocelot",
+        "url": "https://github.com/codeocelot"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Yewno",
+      "position": "Software Engineer",
+      "website": "yewno.com",
+      "startDate": "February 2016",
+      "endDate": "",
+      "summary": "Designed and built key infrastructure, including data APIs, data viz UI (React/Redux/D3), JWT SSO user auth and scalable access control framework.",
+      "highlights": []
+    },
+    {
+      "company": "Lighthouse Labs",
+      "position": "Student Mentor",
+      "website": "https://lighthouselabs.ca",
+      "startDate": "2015-10-15",
+      "endDate": "",
+      "summary": "Teach highly motivated students the best practices in Web Development, including Nodejs, Ruby on Rails, React, Object Orientated Programming, Software Architecture & Test Driven Development.",
+      "highlights": []
+    },
+    {
+      "company": "Leavetown Vacations",
+      "position": "Lead Developer",
+      "website": "http://leavetown.com",
+      "startDate": "2014-11-01",
+      "endDate": "2015-10-20",
+      "summary": "Responsible for the entire stack behind a company doing >$2M/year in revenue.",
+      "highlights": [
+        "Migrated many of the company's services over to a MEAN stack from VB.NET Webforms",
+        "Re-architected business-facing & guest-facing sites to use micro-service architecture"
+      ]
+    },
+    {
+      "company": "Loodo Analytics",
+      "position": "Co-founder",
+      "website": "https://loodo.co",
+      "startDate": "2013-12-01",
+      "endDate": "2014-10-01",
+      "summary": "IoT startup I co-founded.  Used Raspberry Pis to harvest WiFi MAC addresses to provide insights into customer retention, marketing feedback & growth.  iOS 8 ended the fun by breaking spec & scrambling the MAC address on probe requests.",
+      "highlights": [
+        "Offered a $25k termsheet in 48 hours.",
+        "Only New Ventures BC semi-finalist in 2014 controlled by recent university graduates.",
+        "Mentors include VP-BizDev @ SAP and Chairman @ Recon Instruments.",
+        "Iterated through many analytics stacks, including MySQL, neo4j, MongoDB (including Minimongo!) & Redis"
+      ]
+    },
+    {
+      "company": "IC Shore",
+      "position": "Software Engineer",
+      "website": "",
+      "startDate": "2014-01-15",
+      "endDate": "2014-11-15",
+      "summary": "Responsible for maintaining and improving our financial market analysis toolkit",
+      "highlights": [
+        "Spearheaded the effort to move our application off the desktop and into the clouds.",
+        "Wrote library to track errors in our data feed and flag them for further interogation"
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "University of British Columbia",
+      "area": "Major: Computer Science, Minor: Economics",
+      "studyType": "B.Sc",
+      "startDate": "2009-09-01",
+      "endDate": "2013-12-20",
+      "gpa": "",
+      "courses": [
+        "Machine Learning",
+        "Advanced Operating Systems",
+        "Advanced Databases",
+        "Distributed Systems",
+        "Artificial Intelligence",
+        "Internet Computing",
+        "Partial Differential Calculus",
+        "Linear Algebra",
+        "Econometrics",
+        "International Finance"
+      ]
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Server-side Javascript",
+      "level": "Master",
+      "keywords": [
+        "Nodejs",
+        "ES6",
+        "Babel",
+        "Grunt",
+        "Gulp",
+        "HAProxy"
+      ]
+    },
+    {
+      "name": "Client-side Javascript",
+      "level": "Master",
+      "keywords": [
+        "Angular",
+        "{D3,Crossfilter,NVD3,Rickshaw}.js",
+        "JQuery",
+        "React",
+        "Browserify",
+        "Webpack"
+      ]
+    },
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "Material Design",
+        "CSS",
+        "SASS",
+        "LESS",
+        "Above the Fold/Async CSS loading",
+        "Webpack"
+      ]
+    },
+    {
+      "name": "Dev Ops",
+      "level": "Master",
+      "keywords": [
+        "AWS",
+        "Azure",
+        "Index Optimization (noSQL && SQL)",
+        "Load Balancing",
+        "Replication, Availability and Failover",
+        "Forever"
+      ]
+    },
+    {
+      "name": "Data Storage",
+      "level": "Master",
+      "keywords": [
+        "Mongo",
+        "Postgres",
+        "neo4j",
+        "MS-SQL",
+        "MySQL",
+        "Redis"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [],
+  "references": [
+    {
+      "name": "Don Burkes- Head Instructor @ Lighthouse Labs",
+      "reference": "Joey brings both a profound depth and breadth of skill to every project on which he works. Having him share his knowledge and experience at Lighthouse has been a tremendous benefit to both staff and students."
+    }
+  ]
 }
