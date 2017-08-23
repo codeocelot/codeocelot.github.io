@@ -26,18 +26,20 @@
     {
       "company": "Yewno",
       "position": "Software Engineer",
-      "website": "yewno.com",
-      "startDate": "February 2016",
-      "endDate": "",
-      "summary": "Designed and built key infrastructure, including data APIs, data viz UI (React/Redux/D3), JWT SSO user auth and scalable access control framework.",
-      "highlights": []
+      "website": "https://yewno.com",
+      "startDate": "2016-02-08",
+      "summary": "As engineer #2, I designed and built critical infrastructure that thrived in our rapidly iterative environment and provided a strong base to further develop our product ecosystem",
+      "highlights": [
+        "Designed and built key infrastructure, including data APIs, data viz UI (React/Redux/D3), JWT SSO user auth and scalable access control framework.",
+        "Designed developer workflow for tracking, integrating and shipping code to staging, integration and production environments."
+      ]
     },
     {
       "company": "Lighthouse Labs",
       "position": "Student Mentor",
       "website": "https://lighthouselabs.ca",
       "startDate": "2015-10-15",
-      "endDate": "",
+      "endDate": "2016-02-01",
       "summary": "Teach highly motivated students the best practices in Web Development, including Nodejs, Ruby on Rails, React, Object Orientated Programming, Software Architecture & Test Driven Development.",
       "highlights": []
     },
@@ -131,6 +133,35 @@
       ]
     },
     {
+      "name": "Python",
+      "level": "Master",
+      "keywords": [
+        "tornado",
+        "django"
+      ]
+    },
+    {
+      "name": "React",
+      "level": "Master",
+      "keywords": [
+        "Composition > Inheritance",
+        "Higher Order Components",
+        "Component Hierarchy",
+        "Re-useable Components"
+      ]
+    },
+    {
+      "name": "Redux",
+      "level": "Master",
+      "keywords": [
+        "data immutability (immutable.js)",
+        "sagas",
+        "thunks",
+        "timetravel",
+        "state persistance & hydration (Local, Server-side)"
+      ]
+    },
+    {
       "name": "Web Development",
       "level": "Master",
       "keywords": [
@@ -139,7 +170,6 @@
         "CSS",
         "SASS",
         "LESS",
-        "Above the Fold/Async CSS loading",
         "Webpack"
       ]
     },
@@ -147,24 +177,28 @@
       "name": "Dev Ops",
       "level": "Master",
       "keywords": [
+        "Docker",
+        "Docker-compose",
         "AWS",
         "Azure",
         "Index Optimization (noSQL && SQL)",
         "Load Balancing",
         "Replication, Availability and Failover",
-        "Forever"
+        "HAProxy"
       ]
     },
     {
       "name": "Data Storage",
       "level": "Master",
       "keywords": [
-        "Mongo",
+        "Dynamo",
+        "Elasticsearch",
         "Postgres",
+        "Redis",
         "neo4j",
-        "MS-SQL",
         "MySQL",
-        "Redis"
+        "Mongo",
+        "MS-SQL"
       ]
     }
   ],
@@ -174,7 +208,6 @@
       "fluency": "Native speaker"
     }
   ],
-  "interests": [],
   "references": [
     {
       "name": "Don Burkes- Head Instructor @ Lighthouse Labs",

@@ -4,18 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cd ./resume; nodemon -e json -x \"resume export joeygraceyresume.pdf --theme elegant; resume export joeygraceyresume.html --theme elegant; cd ../\""
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codeocelot/resumesite.git"
+    "url": "git+https://github.com/codeocelot/codeocelot.github.io.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/codeocelot/resumesite/issues"
+    "url": "https://github.com/codeocelot/codeocelot.github.io/issues"
   },
-  "homepage": "https://github.com/codeocelot/resumesite#readme",
+  "homepage": "https://github.com/codeocelot/codeocelot.github.io#readme",
   "devDependencies": {
     "css-loader": "^0.21.0",
     "file-loader": "^0.8.4",
