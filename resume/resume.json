@@ -25,13 +25,14 @@
   "work": [
     {
       "company": "Yewno",
-      "position": "Software Engineer",
+      "position": "Senior Software Engineer",
       "website": "https://yewno.com",
       "startDate": "2016-02-08",
-      "summary": "As engineer #2, I designed and built critical infrastructure that thrived in our rapidly iterative environment and provided a strong base to further develop our product ecosystem",
+      "summary": "As engineer #2, I designed and built critical infrastructure that thrived in our rapidly iterative environment and provided a strong base to further develop our product ecosystem.",
       "highlights": [
-        "Designed and built key infrastructure, including data APIs, data viz UI (React/Redux/D3), JWT SSO user auth and scalable access control framework.",
-        "Designed developer workflow for tracking, integrating and shipping code to staging, integration and production environments."
+        "Designed and built key infrastructure, including data APIs, data viz UI (React/Redux/D3), JWT SSO user auth and scalable access control frameworks.",
+        "Designed developer workflow for tracking, integrating and shipping code to staging, integration and production environments.",
+        "Authored company-wide git best practice manual and mentored engineering, data science and product teams on how to best utilize git."
       ]
     },
     {
@@ -77,7 +78,7 @@
       "endDate": "2014-11-15",
       "summary": "Responsible for maintaining and improving our financial market analysis toolkit",
       "highlights": [
-        "Spearheaded the effort to move our application off the desktop and into the clouds.",
+        "Spearheaded the effort to move our application off the desktop and into the cloud.",
         "Wrote library to track errors in our data feed and flag them for further interogation"
       ]
     }
@@ -114,21 +115,17 @@
       "keywords": [
         "Nodejs",
         "ES6",
-        "Babel",
-        "Grunt",
-        "Gulp",
-        "HAProxy"
+        "Babel"
       ]
     },
     {
       "name": "Client-side Javascript",
       "level": "Master",
       "keywords": [
-        "Angular",
-        "{D3,Crossfilter,NVD3,Rickshaw}.js",
-        "JQuery",
         "React",
-        "Browserify",
+        "Redux",
+        "Redux Sagas",
+        "Immutable.js",
         "Webpack"
       ]
     },
@@ -136,8 +133,8 @@
       "name": "Python",
       "level": "Master",
       "keywords": [
-        "tornado",
-        "django"
+        "Tornado",
+        "Django"
       ]
     },
     {
@@ -154,11 +151,11 @@
       "name": "Redux",
       "level": "Master",
       "keywords": [
-        "data immutability (immutable.js)",
-        "sagas",
-        "thunks",
-        "timetravel",
-        "state persistance & hydration (Local, Server-side)"
+        "Data Immutability (immutable.js)",
+        "Sagas",
+        "Thunks",
+        "Timetravel",
+        "State Persistance & Hydration (Local, Server-side)"
       ]
     },
     {
@@ -180,6 +177,7 @@
         "Docker",
         "Docker-compose",
         "AWS",
+        "Microservice management using AWS, Kong or handrolled environments",
         "Azure",
         "Index Optimization (noSQL && SQL)",
         "Load Balancing",
@@ -199,6 +197,16 @@
         "MySQL",
         "Mongo",
         "MS-SQL"
+      ]
+    },
+    {
+      "name": "misc",
+      "level": "Master",
+      "keywords": [
+        "Dvorak keyboard",
+        "vim",
+        "zsh",
+        "git"
       ]
     }
   ],

@@ -27,6 +27,8 @@
   },
   "dependencies": {
     "hammerjs": "^2.0.4",
-    "htmllint": "^0.2.7"
+    "html-to-text": "^3.3.0",
+    "htmllint": "^0.2.7",
+    "resume-cli": "^0.4.19"
   }
 }
